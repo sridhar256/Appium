@@ -1,0 +1,28 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="TeleMed Test Suite">
+    
+	<listeners>
+		<listener class-name="com.telemed.ExtentReportListener.ExtentReportManager"/>
+	</listeners>
+
+  <test name="TeleMed Test Cases" >
+    <classes>
+        
+        <!-- <class name="com.telemed.login.TelemedLoginPageTest" /> -->
+        <!-- <class name="com.telemed.createvisits.CreateVisitNoRemotePatientCorporate" />   
+    	<class name="com.telemed.createvisits.CreateVisitNoRemotePatientMentalHealth" /> 
+    	<class name="com.telemed.createvisits.CreateVisitNoRemotePatientWorkersComp" />   
+    	<class name="com.telemed.createvisits.CreateVisitRemotePatientCorporate" /> 
+    	<class name="com.telemed.createvisits.CreateVisitRemotePatientMentalHealth" />   
+    	<class name="com.telemed.createvisits.CreateVisitRemotePatientWorkersComp" />  -->
+    	<!-- <class name="com.telemed.createvisits.CancelVisitPatient" /> -->
+    	<!-- <class name="com.telemed.createvisits.RescheduleVisitPatient" /> -->
+    	<class name="com.telemed.schedulesr.ScheduleSR" /> 
+    	
+    </classes>
+  </test>
+</suite>
+
+

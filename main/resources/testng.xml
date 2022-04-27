@@ -1,0 +1,19 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="TeleMed Test Suite">
+    
+	<listeners>
+		<listener class-name="com.telemed.ExtentReportListener.ExtentReportManager"/>
+	</listeners>
+
+  <test name="TeleMed Test Cases" >
+    <classes>
+        <class name="com.telemed.testcases.CreateVisitMentalHealth" />   
+       <class name="com.telemed.testcases.CreateVisitCorporatePage" />  
+       <class name="com.telemed.testcases.CreateWorkersCompPage" />  
+    </classes>
+  </test>
+</suite>
+
+
